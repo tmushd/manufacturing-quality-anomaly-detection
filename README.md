@@ -4,6 +4,19 @@ This project shows how I built a production-style semiconductor quality pipeline
 
 On top of the data platform layer, I trained an Isolation Forest anomaly model to flag likely defective units, added automated SQL data-quality controls, and produced interpretable outputs for high-risk records and sensor behavior shifts. The repository also includes verifiable Databricks workspace run proof (Jobs API + SQL query evidence), including an Isolation Forest accuracy of about 88.5% in the validated workspace run.
 
+## At A Glance
+
+| Area | What this project does |
+| --- | --- |
+| Dataset | UCI SECOM semiconductor manufacturing data |
+| Scale | 1,567 records and 591 raw sensor features |
+| Platform | Databricks-style pipeline with PySpark, SQL, Delta Lake, and scikit-learn |
+| Architecture | Bronze -> Silver -> Gold medallion flow |
+| Quality layer | 8 automated SQL data-quality validations |
+| ML output | Isolation Forest anomaly detection for likely defective units |
+| Interpretability | feature shifts, surrogate importance, and local anomaly explanations |
+| Proof | Databricks Jobs API evidence and SQL validation proof committed in the repo |
+
 ## Project Title
 Manufacturing Quality Anomaly Detection Pipeline using Databricks, PySpark, SQL, Delta Lake, and Scikit-learn
 
