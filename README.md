@@ -139,3 +139,9 @@ Or run everything in one shot:
 
 ## Resume-Ready Outcome
 Built a Databricks-style ELT pipeline with PySpark/SQL-ready assets to ingest and transform 1,567 semiconductor records with 591 raw features into Bronze/Silver/Gold layers, trained an Isolation Forest for defect-oriented anomaly detection, implemented 8 automated SQL quality checks, and reduced invalid curated records to zero under defined acceptance rules.
+
+
+## Databricks Workspace Proof
+- Jobs run proof: `docs/databricks_run_proof.md`
+- Raw Jobs API metadata: `outputs/reports/databricks_run_metadata.json`
+- Raw SQL validation proof: `outputs/reports/databricks_sql_proof.json`

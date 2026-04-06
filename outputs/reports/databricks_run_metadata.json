@@ -1,0 +1,16 @@
+{
+  "host": "https://dbc-505eee04-18bb.cloud.databricks.com",
+  "user_email": "vyunndn@outlook.com",
+  "workspace_notebook_path": "/Workspace/Users/vyunndn@outlook.com/manufacturing-quality-anomaly-detection/proof_run_pipeline_embedded",
+  "parent_run_id": 430321928978342,
+  "task_run_id": 963645540221719,
+  "run_page_url": "https://dbc-505eee04-18bb.cloud.databricks.com/?o=7474660770902482#job/279557449134041/run/430321928978342",
+  "state": {
+    "life_cycle_state": "TERMINATED",
+    "result_state": "SUCCESS",
+    "state_message": "",
+    "user_cancelled_or_timedout": false
+  },
+  "output_snippet": "",
+  "captured_at_utc": "2026-04-06T01:16:35.258424+00:00"
+}

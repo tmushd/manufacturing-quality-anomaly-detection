@@ -1,0 +1,63 @@
+{
+  "host": "https://dbc-505eee04-18bb.cloud.databricks.com",
+  "warehouse_id": "c959f483dd118b17",
+  "queried_at_utc": "2026-04-06T01:17:54.936504+00:00",
+  "results": {
+    "bronze_features_count": {
+      "state": "SUCCEEDED",
+      "rows": [
+        [
+          "1567"
+        ]
+      ]
+    },
+    "bronze_labels_count": {
+      "state": "SUCCEEDED",
+      "rows": [
+        [
+          "1567"
+        ]
+      ]
+    },
+    "silver_clean_count": {
+      "state": "SUCCEEDED",
+      "rows": [
+        [
+          "1567"
+        ]
+      ]
+    },
+    "gold_predictions_count": {
+      "state": "SUCCEEDED",
+      "rows": [
+        [
+          "1567"
+        ]
+      ]
+    },
+    "gold_quality_summary": {
+      "state": "SUCCEEDED",
+      "rows": [
+        [
+          "1567",
+          "1567",
+          "1567",
+          "591",
+          "446",
+          "104",
+          "7",
+          "7"
+        ]
+      ]
+    },
+    "gold_dq_pass_fail": {
+      "state": "SUCCEEDED",
+      "rows": [
+        [
+          "PASS",
+          "7"
+        ]
+      ]
+    }
+  }
+}
