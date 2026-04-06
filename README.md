@@ -145,3 +145,4 @@ Built a Databricks-style ELT pipeline with PySpark/SQL-ready assets to ingest an
 - Jobs run proof: `docs/databricks_run_proof.md`
 - Raw Jobs API metadata: `outputs/reports/databricks_run_metadata.json`
 - Raw SQL validation proof: `outputs/reports/databricks_sql_proof.json`
+- Isolation Forest accuracy (Databricks run): `0.8851308232291002` (~`88.51%`)
