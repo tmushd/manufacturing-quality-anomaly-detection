@@ -29,6 +29,7 @@ Query results:
 - `gold.secom_anomaly_predictions`: 1567
 - `gold.secom_quality_summary`: `(bronze_rows=1567, silver_rows=1567, gold_rows=1567, raw_feature_count=591, final_feature_count=446, fail_count=104, dq_checks_total=7, dq_checks_passed=7)`
 - `gold.data_quality_results`: `PASS=7`
+- `gold.secom_quality_metrics`: `(accuracy=0.8851308232, precision=0.1545454545, recall=0.1634615385, f1=0.1588785047, balanced_accuracy=0.5508406799)`
 
 ## Tables created in workspace
 - `bronze.secom_features_raw`
