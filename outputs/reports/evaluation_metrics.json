@@ -1,0 +1,17 @@
+{
+  "precision": 0.16363636363636364,
+  "recall": 0.17307692307692307,
+  "f1": 0.16822429906542055,
+  "balanced_accuracy": 0.5550962195699037,
+  "roc_auc": 0.5895683264104317,
+  "pr_auc": 0.11605500687043518,
+  "confusion_matrix": {
+    "tn": 1371,
+    "fp": 92,
+    "fn": 86,
+    "tp": 18
+  },
+  "defect_capture_top_5pct": 0.1346153846153846,
+  "defect_capture_top_10pct": 0.19230769230769232,
+  "defect_capture_top_20pct": 0.3076923076923077
+}

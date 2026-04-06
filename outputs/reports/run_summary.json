@@ -1,0 +1,15 @@
+{
+  "bronze_rows": 1567,
+  "silver_rows": 1567,
+  "gold_rows": 1567,
+  "feature_count_after_cleaning": 440,
+  "fail_count": 104,
+  "dq_passed": 8,
+  "dq_total": 8,
+  "figures": {
+    "anomaly_distribution": "/Users/vayu/Documents/Playground/manufacturing-quality-anomaly-detection/outputs/figures/anomaly_score_distribution.png",
+    "confusion_matrix": "/Users/vayu/Documents/Playground/manufacturing-quality-anomaly-detection/outputs/figures/confusion_matrix.png",
+    "architecture_diagram": "/Users/vayu/Documents/Playground/manufacturing-quality-anomaly-detection/docs/architecture_diagram.png",
+    "dashboard_snapshot": "/Users/vayu/Documents/Playground/manufacturing-quality-anomaly-detection/docs/dashboard_screenshot.png"
+  }
+}

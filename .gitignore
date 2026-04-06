@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# OS artifacts
+.DS_Store
+
+# Virtual envs
+.venv/
+venv/
+
+# Test/runtime cache
+.pytest_cache/
+
+# Optional local env files
+.env

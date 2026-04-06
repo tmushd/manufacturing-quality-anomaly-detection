@@ -1,0 +1,6 @@
+{
+  "silver_rows": 1567,
+  "dropped_high_null_cols": 29,
+  "dropped_constant_cols": 122,
+  "remaining_sensor_features": 440
+}

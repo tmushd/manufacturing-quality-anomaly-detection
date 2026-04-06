@@ -1,0 +1,6 @@
+{
+  "predictions_rows": 1567,
+  "anomaly_count": 110,
+  "threshold": -0.4231531519857053,
+  "model_path": "/Users/vayu/Documents/Playground/manufacturing-quality-anomaly-detection/outputs/gold/isolation_forest_model.joblib"
+}
