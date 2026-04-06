@@ -1,6 +1,8 @@
 # Manufacturing Quality Anomaly Detection Pipeline (SECOM)
 
-End-to-end Databricks-style medallion pipeline for semiconductor defect/anomaly detection using the UCI SECOM dataset.
+This project shows how I built a production-style semiconductor quality pipeline end to end using Databricks, PySpark, SQL, Delta Lake, and scikit-learn on the UCI SECOM dataset (1,567 records, 591 sensor features). I implemented a full Bronze/Silver/Gold medallion flow that ingests raw manufacturing signals, applies strict cleaning and typing rules, and publishes ML-ready Delta tables for downstream quality monitoring.
+
+On top of the data platform layer, I trained an Isolation Forest anomaly model to flag likely defective units, added automated SQL data-quality controls, and produced interpretable outputs for high-risk records and sensor behavior shifts. The repository also includes verifiable Databricks workspace run proof (Jobs API + SQL query evidence), including an Isolation Forest accuracy of about 88.5% in the validated workspace run.
 
 ## Project Title
 Manufacturing Quality Anomaly Detection Pipeline using Databricks, PySpark, SQL, Delta Lake, and Scikit-learn
